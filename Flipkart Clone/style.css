@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(217, 214, 214);
+}
+/* .container{
+    background-color: gray;
+} */
+.navbar{
+    /* margin: 0 20px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: white;
+}
+header{
+    /* margin: 20px 20px; */
+    padding: 4px 2px;
+    /* display: flex; */
+    /* justify-content: center; */
+    box-sizing: border-box;
+    /* justify-content: center; */
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 6vw;
+    background-color: #fff;
+    font-size: 20px;
+}
+.head1{
+    height: 6vw;
+    /* width: 1000px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.flipkart-icon{
+    font-size: large;
+}
+.flipkart-icon img{
+    background-color: white;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 220, 233);
+    width: 800px;
+    height: 55px;
+    border-radius: 6px;
+}
+
+button{
+    width: 38px;
+    background-color: transparent;
+    border: white;
+}
+.s2{
+    border: 0;
+    outline: 0 none;
+    font-size: 17px;
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.head2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 8px;
+    cursor: pointer;
+}
+.loginner{
+    margin-bottom: 5px;
+    color: black;
+    text-decoration: none;
+    /* font-size: 15px; */
+}
+.img1{
+    margin-right: 8px;
+}
+.arrow{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.cart{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    /* border: 1px solid transparent; */
+    /* box-sizing: border-box; */
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.img2{
+    margin-right: 5px;
+}
+.innercart{
+    text-decoration: none;
+    color: black;
+}
+
+.seller{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.img3{
+    margin-right: 10px;
+}
+.innerseller{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* main */
+/* hero section */
+
+.herosection{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* position: relative; */
+    height: 180px;
+    margin: 8px 18px;
+    background: white;
+}
+.content{
+    display: flex;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    z-index: 10000;
+    
+    color: #111112;
+    /* background-color: #fff; */
+}
+.sec1{
+    /* align-items: center;
+    margin-left: 25px;
+    margin-right: 25px; */
+    min-width: 90px;
+    padding: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    box-sizing: content-box;
+}
+.grocery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    /* margin-left: 11px;
+    margin-right: 25px; */
+    font-weight: bold;
+    font-size: 18px;
+}
+.mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    /* margin-left: 11px;
+    margin-right: 25px; */
+    font-weight: bold;
+    font-size: 18px;
+}
+.fashion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    margin-top: 3px;
+    /* margin-left: 11px;
+    margin-right: 25px; */
+    font-weight: bold;
+    font-size: 18px;
+}
+.electronics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    /* margin-left: 11px;
+    margin-right: 25px; */
+    font-weight: bold;
+    font-size: 18px;
+}
+.Home-furniture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    /* margin-left: 11px;
+    margin-right: 25px; */
+    font-weight: bold;
+    font-size: 18px;
+}
+.Appliances{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    /* margin-left: 11px;
+    margin-right: 25px; */
+    font-weight: bold;
+    font-size: 18px;
+}
+.Travel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    /* margin-left: 11px;
+    margin-right: 25px; */
+    font-weight: bold;
+    font-size: 18px;
+}
+.Beauty-Toys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    /* margin-left: 11px;
+    margin-right: 25px; */
+    font-weight: bold;
+    font-size: 18px;
+}
+.twowheeler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    /* margin-left: 11px;
+    margin-right: 25px; */
+    font-weight: bold;
+    font-size: 18px;
+}
+.arrow{
+    margin-left: 8px;
+    margin-top: 16px;
+}
+
+
+/* carousel*/
+
+.sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 18px;
+    cursor: pointer;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 40px;
+    background-color: #fff;
+    height: 88px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 4px 0 0 4px;
+    margin: 380px 18px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.12);
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 40px;
+    background-color: #fff;
+    height: 88px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 4px 4px 0;
+    margin: 380px 18px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.12);
+}
+.svg1{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: scale(1) translateY(-50%);
+    cursor: pointer;
+}
+.svg2{
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: scale(1) translateY(-50%);
+    cursor: pointer;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+/* Fading animation */
+/* .fade {
+    animation-name: fade;
+    animation-duration: 0s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  } */
+
+
+/* container3 */
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* width: 100%;
+    height: 250px; */
+    height: 400px;
+    margin: 8px 18px;
+    /* width: 100%; */
+    /* background-color: white; */
+}
+.rightbox{
+    width: 300px;
+    height: 400px;
+    margin-left: 24px;
+    background-color: white;
+}
+.innerbox{
+    margin-top: 16px;
+    width: 300px;
+    height: 370px;
+    position: relative;
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: stretch;
+    box-sizing: border-box;
+    height: 400px;
+    width: 1250px;
+    position: relative;
+    border: 0 solid black;
+    background-color: white;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    /* background-color: aqua; */
+}
+.h3{
+    margin-left: 20px;
+    /* background-color: blueviolet; */
+    font-size: 22px;
+    font-weight: bold;
+}
+.innerrightarrow{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-right: 20px;
+    background-color: rgb(26, 64, 190);
+}
+.next{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentbox{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 350px;
+    width: 1250px;
+    margin-top: 15px;
+    /* scroll-behavior: smooth; */
+}
+.imgbox{
+    width: 1250px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+    /* padding: 4px 4px; */
+    /* text-decoration: none; */
+    
+}
+/* when text decoration not working normally */
+/* This property may not work for a couple of reasons:
+
+The selector may not be targeting the correct element. The text-decoration: none; code must be applied to the a tag to remove the underline.
+There might be another CSS rule that takes precedence over text-decoration: none;
+The browser may have its styling overrides. */
+a:link {
+    text-decoration: none;
+  }
+.mainbox1, .mainbox2, .mainbox3, .mainbox4{
+    box-sizing: border-box;
+    width: 230px;
+    padding: 10px;
+    position: relative;
+    margin-right: 20px;
+    height: 300px;
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid rgb(204, 203, 203);
+    border-radius: 4px;
+}
+.box1, .box2, .box3, .box4{
+    box-sizing: border-box;
+    width: 220px;
+    padding: 10px;
+    position: relative;
+    /* margin-right: 8px; */
+    height: 215px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.mainbox5{
+    box-sizing: border-box;
+    width: 230px;
+    padding: 10px;
+    position: relative;
+    /* margin-right: 8px; */
+    /* margin-bottom: 50px; */
+    height: 300px;
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid rgb(204, 203, 203);
+    border-right: transparent;
+    border-radius: 4px;
+}
+.box5{
+    box-sizing: border-box;
+    width: 230px;
+    padding: 10px;
+    position: relative;
+    /* margin-right: 8px; */
+    height: 215px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.f1{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    /* margin-bottom: 150px; */
+    /* justify-content: center; */
+}
+.next2{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 165px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/* container 4 */
+.leftbox2{
+    width: 100%;
+    margin-top: 30px;
+}
+.contentbox2{
+    width: 100%;
+}
+.imgbox{
+    width: 100%;
+}
+.f2{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 0px;
+}
+span{
+    margin-top: 10px;
+}
+.box1_1{
+    height: 204px;
+}
+
+/* container 5 */
+.container5{
+    margin-top: 30px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    margin: 16px;    
+}
+.container_end{
+    color: #666;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    text-align: left;
+    padding: 25px;
+    line-height: 1.5;
+    /* margin: 2px 16px; */
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.fot1{
+    color: #565656;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 14px;
+    padding: 14px 0;
+}
+.fot1_1{
+    color: #565656;
+    margin-left: 2px;
+}
+.fot2{
+    color: #565656;
+    margin: 14px 0;
+    line-height: 1.5;
+}
+.abcd{
+    color: #565656;
+    margin-right: 2px;
+    font-size: 17px;
+}
+.links{
+    color: #565656;
+    border-right: 1px solid #565656;
+    padding: 0 5px;
+    font-size: 16px;
+}
+/* -----> */
+.end_part{
+    width: 100%;
+    height: 100%;
+    background-color: #111112;
+}
+.section3{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 40px 60px 0;
+    column-gap: 20px;
+}
+.s3{
+    font-size: 16px;
+    color: #bab8b8;
+    margin-bottom: 20px;
+}
+.s3_3{
+    font-size: 12px;
+    color: #fff;
+    display: block;
+    line-height: 18px;
+}
+.right_side{
+    border-right: 1px solid grey;
+    margin-right: 20px;
+}
+.social{
+    margin-top: 8px;
+    color: #bebbbb;
+}
+.inside{
+    display: flex;
+    align-items: center;
+}
+.social a img{
+    width: 30px; 
+    height: 30px;
+    
+    margin-top: 8px;
+    margin-left: 4px;
+}
+
+.under{
+    margin-top: 10px;
+    border-top: 1px solid grey;
+}
+.lastpart{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+    color: #f5f5f5;
+}
